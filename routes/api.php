@@ -19,5 +19,5 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 
-Route::get('getusers','UserController@getusers');
 
+Route::get('getusers','UserController@getusers');
